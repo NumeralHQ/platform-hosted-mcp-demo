@@ -51,6 +51,7 @@ export function ConnectedState({ skin }: { skin: PlatformSkin }) {
             render={
               <a href={NUMERAL_APP_URL} target="_blank" rel="noreferrer" />
             }
+            nativeButton={false}
             size="sm"
             variant="outline"
           >
