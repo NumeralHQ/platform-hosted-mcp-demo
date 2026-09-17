@@ -17,7 +17,7 @@ import type { PlatformSkin } from "@/platform.config";
 import type { Merchant } from "@/lib/numeral";
 import type { ReactNode } from "react";
 
-export const NUMERAL_APP_URL = "https://app.numeralhq.com";
+export const NUMERAL_APP_URL = "https://dashboard.numeralhq.com/dashboard";
 
 /**
  * The consent flow, as the merchant will see it in Numeral. Nothing here
