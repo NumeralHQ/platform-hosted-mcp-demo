@@ -1,0 +1,29 @@
+{
+ "isError": false,
+ "data": {
+  "merchant": {
+   "id": "mer_178961510812626c1b673-2596-4667-a524-43543f597a7f",
+   "reference_merchant_id": "ridgeline-trading",
+   "name": "Ridgeline Trading Co.",
+   "email": "merchant@example.com",
+   "default_address": {
+    "address_line_1": "1 Main St",
+    "address_line_2": null,
+    "address_city": "Los Angeles",
+    "address_province": "CA",
+    "address_postal_code": "90071",
+    "address_country": "US"
+   },
+   "tax_ids": [
+    {
+     "type": "us_ein",
+     "value": "84-1234567"
+    }
+   ],
+   "metadata": null,
+   "linked": false,
+   "created_at": "2026-09-17T02:53:24.178Z",
+   "updated_at": "2026-09-17T02:53:24.178Z"
+  }
+ }
+}

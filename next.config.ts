@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  // Replay mode reads fixtures/ at request time; make sure they ship with the
+  // serverless bundle on Vercel.
+  outputFileTracingIncludes: {
+    "/**": ["./fixtures/**/*"],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
