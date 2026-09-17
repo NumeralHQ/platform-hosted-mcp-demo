@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
-    "record": "bun run scripts/record-fixtures.ts"
+    "record": "bun run scripts/record-fixtures.ts",
+    "typegen": "next typegen"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
