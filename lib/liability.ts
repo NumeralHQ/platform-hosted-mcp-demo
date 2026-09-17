@@ -100,6 +100,6 @@ export function bucketExplanation(
 export const BUCKET_COLORS: Record<LiabilityBucket, string> = {
   platform_remits: "#0369a1",
   merchant_remits: "#b45309",
-  platform_fees: "#64748b",
-  off_platform: "#a1a1aa",
+  platform_fees: "#0f766e",
+  off_platform: "#7c3aed",
 }

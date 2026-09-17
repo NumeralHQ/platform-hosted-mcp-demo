@@ -179,7 +179,12 @@ export function listRegistrations(merchantId: string): Promise<Panel<ListRegistr
   return panel("list_registrations", { merchant_id: merchantId }, listRegistrationsSchema)
 }
 
-/** The trace collected so far in this request, for the Under-the-hood drawer. */
+/**
+ * The trace collected so far in this request, for the Under-the-hood drawer.
+ * Only meaningful inside a page render: React's `cache` scopes `requestSource`
+ * to the render tree, so a route handler gets a fresh source per call and
+ * should use the `trace` on each `Panel` it received instead.
+ */
 export async function currentTrace(): Promise<ToolCallTrace[]> {
   const source = await requestSource()
   return [...source.trace]
