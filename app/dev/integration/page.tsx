@@ -1,68 +1,83 @@
-import { readFileSync } from "node:fs"
-import path from "node:path"
-import { BookOpen, ExternalLink } from "lucide-react"
-import { CodePanel } from "@/components/dev/code-panel"
-import { ErrorMatrix } from "@/components/dev/error-matrix"
-import { KeyTable } from "@/components/dev/key-table"
-import { DevSection } from "@/components/dev/section"
-import { ToolCatalog, type CatalogEntry } from "@/components/dev/tool-catalog"
-import { PoweredBy } from "@/components/shell/powered-by"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { hasKey, listTools, mcpUrl } from "@/lib/numeral/client"
-import { getSkin } from "@/platform.config"
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { BookOpen, ExternalLink } from "lucide-react";
+import { CodePanel } from "@/components/dev/code-panel";
+import { ErrorMatrix } from "@/components/dev/error-matrix";
+import { KeyTable } from "@/components/dev/key-table";
+import { DevSection } from "@/components/dev/section";
+import { ToolCatalog, type CatalogEntry } from "@/components/dev/tool-catalog";
+import { PoweredBy } from "@/components/shell/powered-by";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { hasKey, listTools, mcpUrl } from "@/lib/numeral/client";
+import { getSkin } from "@/platform.config";
 
-const REPO_URL = "https://github.com/NumeralHQ/platform-hosted-mcp-demo"
+const REPO_URL = "https://github.com/NumeralHQ/platform-hosted-mcp-demo";
 
 /**
  * Public page; no session and no cookies (the skin comes from the env, not
  * the admin override), so it is static and revalidates once a minute in
  * production: the live catalog costs one call per minute, not one per view.
  */
-export const revalidate = 60
+export const revalidate = 60;
 
-const CALLS_PER_MINUTE = 100
+const CALLS_PER_MINUTE = 100;
 
 function readSource(relative: string): string | null {
   try {
-    return readFileSync(path.join(process.cwd(), relative), "utf8")
+    return readFileSync(path.join(process.cwd(), relative), "utf8");
   } catch {
-    return null
+    return null;
   }
 }
 
 /** The `panel()` function only, lifted from the real file so it cannot drift. */
 function extractPanel(source: string): string | null {
-  const start = source.indexOf("async function panel<T>(")
+  const start = source.indexOf("async function panel<T>(");
   if (start === -1) {
-    return null
+    return null;
   }
-  const end = source.indexOf("\n}\n", start)
+  const end = source.indexOf("\n}\n", start);
   if (end === -1) {
-    return null
+    return null;
   }
-  const docStart = source.lastIndexOf("/**", start)
-  return source.slice(docStart === -1 ? start : docStart, end + 2)
+  const docStart = source.lastIndexOf("/**", start);
+  return source.slice(docStart === -1 ? start : docStart, end + 2);
 }
 
-async function loadCatalog(): Promise<{ live: CatalogEntry[] | null; error: string | null }> {
+async function loadCatalog(): Promise<{
+  live: CatalogEntry[] | null;
+  error: string | null;
+}> {
   if (!hasKey("test")) {
-    return { live: null, error: "NUMERAL_TEST_API_KEY is not set" }
+    return { live: null, error: "NUMERAL_TEST_API_KEY is not set" };
   }
   try {
-    const tools = await listTools("test")
-    return { live: tools.map((t) => ({ name: t.name, description: t.description })), error: null }
+    const tools = await listTools("test");
+    return {
+      live: tools.map((t) => ({ name: t.name, description: t.description })),
+      error: null,
+    };
   } catch (error) {
-    return { live: null, error: error instanceof Error ? error.message : String(error) }
+    return {
+      live: null,
+      error: error instanceof Error ? error.message : String(error),
+    };
   }
 }
 
 export default async function IntegrationPage() {
-  const skin = getSkin(process.env.PLATFORM_SKIN)
-  const catalog = await loadCatalog()
-  const clientSource = readSource("lib/numeral/client.ts")
-  const indexSource = readSource("lib/numeral/index.ts")
-  const panelSource = indexSource ? extractPanel(indexSource) : null
+  const skin = getSkin(process.env.PLATFORM_SKIN);
+  const catalog = await loadCatalog();
+  const clientSource = readSource("lib/numeral/client.ts");
+  const indexSource = readSource("lib/numeral/index.ts");
+  const panelSource = indexSource ? extractPanel(indexSource) : null;
 
   const sections = [
     ["how", "How it works"],
@@ -72,7 +87,7 @@ export default async function IntegrationPage() {
     ["budget", "Request budget"],
     ["code", "The code"],
     ["modes", "Data modes"],
-  ] as const
+  ] as const;
 
   return (
     <main className="mx-auto w-full max-w-5xl flex-1 space-y-12 px-6 py-10 lg:px-10">
@@ -80,24 +95,44 @@ export default async function IntegrationPage() {
         <div className="text-muted-foreground flex items-center gap-2 text-xs font-medium uppercase tracking-wide">
           <BookOpen className="size-3.5" /> For platform engineers
         </div>
-        <h1 className="text-3xl font-semibold tracking-tight">How {skin.name} reads a merchant&apos;s tax data</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">
+          How {skin.name} reads a merchant&apos;s tax data
+        </h1>
         <p className="text-muted-foreground max-w-3xl text-base leading-relaxed">
-          The Tax tab in this demo is built on the Numeral MCP at <span className="font-mono">{mcpUrl()}</span>.
-          There is no SDK, no session, and no per-merchant credential: one stateless POST per read, authenticated
-          with the platform&apos;s own secret key, with <span className="font-mono">merchant_id</span> filled in
-          on the server from the signed-in session. This page is the whole integration.
+          The Tax tab in this demo is built on the Numeral MCP at{" "}
+          <span className="font-mono">{mcpUrl()}</span>. There is no SDK, no
+          session, and no per-merchant credential: one stateless POST per read,
+          authenticated with the platform&apos;s own secret key, with{" "}
+          <span className="font-mono">merchant_id</span> filled in on the server
+          from the signed-in session. This page is the whole integration.
         </p>
         <div className="flex flex-wrap gap-3">
-          <Button render={<a href={REPO_URL} target="_blank" rel="noreferrer" />} size="sm">
+          <Button
+            render={<a href={REPO_URL} target="_blank" rel="noreferrer" />}
+            nativeButton={false}
+            size="sm"
+          >
             Source on GitHub <ExternalLink className="ml-1 size-4" />
           </Button>
-          <Button render={<a href="/dashboard/tax" />} size="sm" variant="outline">
+          <Button
+            render={<a href="/dashboard/tax" />}
+            nativeButton={false}
+            size="sm"
+            variant="outline"
+          >
             See it in the dashboard
           </Button>
         </div>
-        <nav aria-label="On this page" className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        <nav
+          aria-label="On this page"
+          className="flex flex-wrap gap-x-4 gap-y-1 text-sm"
+        >
           {sections.map(([id, label]) => (
-            <a key={id} href={`#${id}`} className="text-muted-foreground hover:text-foreground underline-offset-4 hover:underline">
+            <a
+              key={id}
+              href={`#${id}`}
+              className="text-muted-foreground hover:text-foreground underline-offset-4 hover:underline"
+            >
               {label}
             </a>
           ))}
@@ -114,10 +149,13 @@ export default async function IntegrationPage() {
             title="One stateless POST per tool call"
             body={
               <>
-                JSON-RPC <span className="font-mono">tools/call</span> over HTTPS (MCP Streamable HTTP). No{" "}
-                <span className="font-mono">initialize</span>, no session id, no long-lived connection. A tool
-                result is JSON in a text content block; a structured tool error sets{" "}
-                <span className="font-mono">isError</span> and returns <span className="font-mono">error_code</span>.
+                JSON-RPC <span className="font-mono">tools/call</span> over
+                HTTPS (MCP Streamable HTTP). No{" "}
+                <span className="font-mono">initialize</span>, no session id, no
+                long-lived connection. A tool result is JSON in a text content
+                block; a structured tool error sets{" "}
+                <span className="font-mono">isError</span> and returns{" "}
+                <span className="font-mono">error_code</span>.
               </>
             }
           />
@@ -125,8 +163,10 @@ export default async function IntegrationPage() {
             title="The platform's key is the Bearer token"
             body={
               <>
-                <span className="font-mono">Authorization: Bearer sk_…</span>. The key identifies the platform&apos;s
-                Numeral account and the mode, so no tool takes an account id and a request cannot cross tenants.
+                <span className="font-mono">Authorization: Bearer sk_…</span>.
+                The key identifies the platform&apos;s Numeral account and the
+                mode, so no tool takes an account id and a request cannot cross
+                tenants.
               </>
             }
           />
@@ -134,8 +174,9 @@ export default async function IntegrationPage() {
             title="merchant_id is injected server-side"
             body={
               <>
-                The only argument this app adds is the merchant id, read from the signed session cookie. The
-                browser never chooses whose data it sees; there is no client-side call to Numeral at all.
+                The only argument this app adds is the merchant id, read from
+                the signed session cookie. The browser never chooses whose data
+                it sees; there is no client-side call to Numeral at all.
               </>
             }
           />
@@ -144,10 +185,12 @@ export default async function IntegrationPage() {
             body={
               <>
                 Merchant-linked reads (nexus, filings, registrations) return{" "}
-                <span className="font-mono">merchant_not_linked</span> until the merchant adds {skin.name} under
-                Connections in their Numeral account, verifies by email code, and switches on &ldquo;Share with{" "}
-                {skin.name}&rdquo;. The platform never holds the merchant&apos;s credentials, and the merchant can
-                switch sharing off.
+                <span className="font-mono">merchant_not_linked</span> until the
+                merchant adds {skin.name} under Connections in their Numeral
+                account, verifies by email code, and switches on &ldquo;Share
+                with {skin.name}&rdquo;. The platform never holds the
+                merchant&apos;s credentials, and the merchant can switch sharing
+                off.
               </>
             }
           />
@@ -159,9 +202,11 @@ export default async function IntegrationPage() {
         title="Two keys"
         lede={
           <>
-            Sales tools read the platform&apos;s own transactions and work on the sandbox key. Merchant and account
-            tools read through the merchant&apos;s consent, which Numeral only honours on the live key. This table
-            is rendered from <span className="font-mono">TOOL_KEY_KIND</span> in{" "}
+            Sales tools read the platform&apos;s own transactions and work on
+            the sandbox key. Merchant and account tools read through the
+            merchant&apos;s consent, which Numeral only honours on the live key.
+            This table is rendered from{" "}
+            <span className="font-mono">TOOL_KEY_KIND</span> in{" "}
             <span className="font-mono">lib/numeral/schemas.ts</span>.
           </>
         }
@@ -174,10 +219,14 @@ export default async function IntegrationPage() {
         title="Error codes"
         lede={
           <>
-            A tool error is a normal result with <span className="font-mono">isError: true</span> and a body of{" "}
-            <span className="font-mono">{"{ error_code, error_message }"}</span>. The client throws{" "}
-            <span className="font-mono">NumeralToolError</span> with the code; the page branches on it. Rendered
-            from <span className="font-mono">NUMERAL_ERROR_CODES</span> in <span className="font-mono">lib/numeral/errors.ts</span>.
+            A tool error is a normal result with{" "}
+            <span className="font-mono">isError: true</span> and a body of{" "}
+            <span className="font-mono">{"{ error_code, error_message }"}</span>
+            . The client throws{" "}
+            <span className="font-mono">NumeralToolError</span> with the code;
+            the page branches on it. Rendered from{" "}
+            <span className="font-mono">NUMERAL_ERROR_CODES</span> in{" "}
+            <span className="font-mono">lib/numeral/errors.ts</span>.
           </>
         }
       >
@@ -189,8 +238,9 @@ export default async function IntegrationPage() {
         title="Tool catalog"
         lede={
           <>
-            <span className="font-mono">tools/list</span> on the same endpoint returns every tool with its JSON
-            schema. This demo uses nine read tools.
+            <span className="font-mono">tools/list</span> on the same endpoint
+            returns every tool with its JSON schema. This demo uses nine read
+            tools.
           </>
         }
       >
@@ -204,17 +254,21 @@ export default async function IntegrationPage() {
       >
         <Card>
           <CardContent className="grid gap-4 pt-0 sm:grid-cols-3">
-            <Stat value={`${CALLS_PER_MINUTE}/min`} label="Calls per platform account" />
+            <Stat
+              value={`${CALLS_PER_MINUTE}/min`}
+              label="Calls per platform account"
+            />
             <Stat value="1" label="POST per tool call, no handshake" />
             <Stat value="60 s" label="This page's cache in production" />
           </CardContent>
         </Card>
         <p className="text-muted-foreground max-w-3xl text-sm leading-relaxed">
-          The budget is per platform account, shared across all merchants, so a dashboard page should make a
-          handful of calls (the Tax overview here makes four) and cache list results server-side. The heaviest
-          read in this demo, <span className="font-mono">list_filings</span> with{" "}
-          <span className="font-mono">limit: 500</span>, is one call. Fetch per-filing detail only when the
-          merchant opens a filing.
+          The budget is per platform account, shared across all merchants, so a
+          dashboard page should make a handful of calls (the Tax overview here
+          makes four) and cache list results server-side. The heaviest read in
+          this demo, <span className="font-mono">list_filings</span> with{" "}
+          <span className="font-mono">limit: 500</span>, is one call. Fetch
+          per-filing detail only when the merchant opens a filing.
         </p>
       </DevSection>
 
@@ -223,18 +277,27 @@ export default async function IntegrationPage() {
         title="The code"
         lede={
           <>
-            These panels read the real files at request time. The first is the complete client a platform needs;
-            the second is the one function that turns a call into a typed result or a code to branch on.
+            These panels read the real files at request time. The first is the
+            complete client a platform needs; the second is the one function
+            that turns a call into a typed result or a code to branch on.
           </>
         }
       >
         {clientSource ? (
-          <CodePanel file="lib/numeral/client.ts" code={clientSource} note="complete file" />
+          <CodePanel
+            file="lib/numeral/client.ts"
+            code={clientSource}
+            note="complete file"
+          />
         ) : (
           <SourceUnavailable file="lib/numeral/client.ts" />
         )}
         {panelSource ? (
-          <CodePanel file="lib/numeral/index.ts" code={panelSource} note="panel() only" />
+          <CodePanel
+            file="lib/numeral/index.ts"
+            code={panelSource}
+            note="panel() only"
+          />
         ) : (
           <SourceUnavailable file="lib/numeral/index.ts" />
         )}
@@ -245,8 +308,9 @@ export default async function IntegrationPage() {
         title="Data modes"
         lede={
           <>
-            <span className="font-mono">NUMERAL_MODE</span> decides where a panel&apos;s data comes from. The
-            client is identical in every mode; only the data source in front of it changes.
+            <span className="font-mono">NUMERAL_MODE</span> decides where a
+            panel&apos;s data comes from. The client is identical in every mode;
+            only the data source in front of it changes.
           </>
         }
       >
@@ -265,9 +329,10 @@ export default async function IntegrationPage() {
           />
         </div>
         <p className="text-muted-foreground max-w-3xl text-sm leading-relaxed">
-          Default: <span className="font-mono">auto</span> when any key is set, otherwise{" "}
-          <span className="font-mono">replay</span>. See <span className="font-mono">.env.example</span> in the
-          repo for every variable.
+          Default: <span className="font-mono">auto</span> when any key is set,
+          otherwise <span className="font-mono">replay</span>. See{" "}
+          <span className="font-mono">.env.example</span> in the repo for every
+          variable.
         </p>
       </DevSection>
 
@@ -275,7 +340,7 @@ export default async function IntegrationPage() {
         <PoweredBy />
       </footer>
     </main>
-  )
+  );
 }
 
 function Fact({ title, body }: { title: string; body: React.ReactNode }) {
@@ -286,16 +351,18 @@ function Fact({ title, body }: { title: string; body: React.ReactNode }) {
         <CardDescription className="leading-relaxed">{body}</CardDescription>
       </CardHeader>
     </Card>
-  )
+  );
 }
 
 function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="text-2xl font-semibold tabular-nums tracking-tight">{value}</p>
+      <p className="text-2xl font-semibold tabular-nums tracking-tight">
+        {value}
+      </p>
       <p className="text-muted-foreground text-xs">{label}</p>
     </div>
-  )
+  );
 }
 
 function ModeCard({ name, body }: { name: string; body: string }) {
@@ -306,7 +373,7 @@ function ModeCard({ name, body }: { name: string; body: string }) {
         <CardDescription className="leading-relaxed">{body}</CardDescription>
       </CardHeader>
     </Card>
-  )
+  );
 }
 
 function SourceUnavailable({ file }: { file: string }) {
@@ -316,12 +383,17 @@ function SourceUnavailable({ file }: { file: string }) {
         <CardTitle className="font-mono text-sm">{file}</CardTitle>
         <CardDescription>
           The source file is not bundled in this deployment. Read it on{" "}
-          <a href={REPO_URL} className="underline underline-offset-4" target="_blank" rel="noreferrer">
+          <a
+            href={REPO_URL}
+            className="underline underline-offset-4"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>
           .
         </CardDescription>
       </CardHeader>
     </Card>
-  )
+  );
 }

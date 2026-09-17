@@ -1,26 +1,46 @@
-import { ExternalLink, KeyRound, Link2, Search, ToggleRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import type { PlatformSkin } from "@/platform.config"
-import type { Merchant } from "@/lib/numeral"
-import type { ReactNode } from "react"
+import {
+  ExternalLink,
+  KeyRound,
+  Link2,
+  Search,
+  ToggleRight,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import type { PlatformSkin } from "@/platform.config";
+import type { Merchant } from "@/lib/numeral";
+import type { ReactNode } from "react";
 
-export const NUMERAL_APP_URL = "https://app.numeralhq.com"
+export const NUMERAL_APP_URL = "https://app.numeralhq.com";
 
 /**
  * The consent flow, as the merchant will see it in Numeral. Nothing here
  * happens inside the platform: the platform waits until the merchant has
  * switched on sharing, then its reads start succeeding.
  */
-export function ConnectSteps({ skin, merchant }: { skin: PlatformSkin; merchant: Merchant | null }) {
+export function ConnectSteps({
+  skin,
+  merchant,
+}: {
+  skin: PlatformSkin;
+  merchant: Merchant | null;
+}) {
   const steps: Array<{ icon: ReactNode; title: string; body: ReactNode }> = [
     {
       icon: <Link2 className="size-4" />,
       title: `Open Numeral and add ${skin.name} under Connections`,
       body: (
         <>
-          Sign in to your own Numeral account, go to <span className="font-medium">Connections</span>, and choose{" "}
-          <span className="font-medium">{skin.name}</span> from the list of platforms.
+          Sign in to your own Numeral account, go to{" "}
+          <span className="font-medium">Connections</span>, and choose{" "}
+          <span className="font-medium">{skin.name}</span> from the list of
+          platforms.
         </>
       ),
     },
@@ -33,10 +53,12 @@ export function ConnectSteps({ skin, merchant }: { skin: PlatformSkin; merchant:
           {merchant ? (
             <>
               {" "}
-              (here that is <span className="font-medium">{merchant.name}</span>)
+              (here that is <span className="font-medium">{merchant.name}</span>
+              )
             </>
           ) : null}
-          . Numeral matches it to the {skin.sellerNoun} record {skin.name} keeps for you.
+          . Numeral matches it to the {skin.sellerNoun} record {skin.name} keeps
+          for you.
         </>
       ),
     },
@@ -45,8 +67,8 @@ export function ConnectSteps({ skin, merchant }: { skin: PlatformSkin; merchant:
       title: "Enter the code Numeral emails you",
       body: (
         <>
-          Numeral sends a one-time code to the email on your {skin.name} account to confirm you own it. The code
-          never passes through {skin.name}.
+          Numeral sends a one-time code to the email on your {skin.name} account
+          to confirm you own it. The code never passes through {skin.name}.
         </>
       ),
     },
@@ -55,19 +77,21 @@ export function ConnectSteps({ skin, merchant }: { skin: PlatformSkin; merchant:
       title: `Switch on "Share with ${skin.name}"`,
       body: (
         <>
-          The switch is the consent. Until it is on, {skin.name} sees nothing from your Numeral account; the moment
-          it is on, this tab fills in. Switch it off any time to stop sharing.
+          The switch is the consent. Until it is on, {skin.name} sees nothing
+          from your Numeral account; the moment it is on, this tab fills in.
+          Switch it off any time to stop sharing.
         </>
       ),
     },
-  ]
+  ];
 
   return (
     <Card>
       <CardHeader>
         <CardTitle>Connect in Numeral</CardTitle>
         <CardDescription>
-          Four steps, all inside your Numeral account. {skin.name} never asks for your Numeral login.
+          Four steps, all inside your Numeral account. {skin.name} never asks
+          for your Numeral login.
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-5">
@@ -82,15 +106,20 @@ export function ConnectSteps({ skin, merchant }: { skin: PlatformSkin; merchant:
                   {step.icon}
                   {step.title}
                 </p>
-                <p className="text-muted-foreground text-sm leading-relaxed">{step.body}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {step.body}
+                </p>
               </div>
             </li>
           ))}
         </ol>
-        <Button render={<a href={NUMERAL_APP_URL} target="_blank" rel="noreferrer" />}>
+        <Button
+          render={<a href={NUMERAL_APP_URL} target="_blank" rel="noreferrer" />}
+          nativeButton={false}
+        >
           Open Numeral <ExternalLink className="ml-1 size-4" />
         </Button>
       </CardContent>
     </Card>
-  )
+  );
 }
