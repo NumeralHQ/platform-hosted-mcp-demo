@@ -43,40 +43,43 @@ export function UnderTheHood({ trace, mode }: { trace: ToolCallTrace[]; mode: st
           {trace.length}
         </Badge>
       </SheetTrigger>
-      <SheetContent side="right" className="w-full sm:max-w-xl">
-        <SheetHeader>
-          <SheetTitle>Numeral MCP calls on this page</SheetTitle>
-          <SheetDescription>
-            {trace.length} tool {trace.length === 1 ? "call" : "calls"} · {live} live, {recorded} recorded ·{" "}
-            {totalMs} ms total · mode <span className="font-mono">{mode}</span>
+      <SheetContent side="right" className="w-full gap-0 p-0 sm:max-w-lg">
+        <SheetHeader className="border-b px-6 py-5 pr-14">
+          <SheetTitle className="text-base font-semibold">Numeral MCP calls on this page</SheetTitle>
+          <SheetDescription className="tabular-nums">
+            {trace.length} {trace.length === 1 ? "call" : "calls"} · {live} live · {recorded} recorded · {totalMs} ms ·
+            mode <span className="font-mono text-foreground">{mode}</span>
           </SheetDescription>
         </SheetHeader>
-        <ScrollArea className="mt-4 h-[calc(100vh-9rem)] pr-3">
-          <ol className="space-y-3">
+        <ScrollArea className="min-h-0 flex-1">
+          <ol className="divide-y">
             {trace.map((call, index) => (
-              <li key={`${call.tool}-${index}`} className="rounded-lg border p-3 text-sm">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-mono font-medium">{call.tool}</span>
+              <li key={`${call.tool}-${index}`} className="space-y-3 px-6 py-5">
+                <div className="flex items-baseline justify-between gap-4">
+                  <span className="truncate font-mono text-sm font-semibold">{call.tool}</span>
+                  <span className="text-muted-foreground shrink-0 text-xs tabular-nums">{call.durationMs} ms</span>
+                </div>
+                <div className="flex flex-wrap items-center gap-1.5">
                   {call.source === "live" ? (
                     <Badge variant="secondary">live · {call.keyKind === "live" ? "sk_prod" : "sk_test"}</Badge>
                   ) : (
                     <Badge variant="outline">recorded{call.fallbackReason ? ` · ${call.fallbackReason}` : ""}</Badge>
                   )}
-                  {call.scope && <Badge variant="outline">scope: {call.scope}</Badge>}
+                  {call.scope && <Badge variant="outline">scope · {call.scope}</Badge>}
                   {call.errorCode && <Badge variant="destructive">{call.errorCode}</Badge>}
-                  <span className="text-muted-foreground ml-auto tabular-nums">{call.durationMs} ms</span>
                 </div>
-                <pre className="bg-muted mt-2 overflow-x-auto rounded-md p-2 text-xs leading-relaxed">
+                <pre className="bg-muted overflow-x-auto rounded-lg px-4 py-3 font-mono text-xs leading-relaxed">
                   <Args args={call.args} />
                 </pre>
               </li>
             ))}
           </ol>
-          <p className="text-muted-foreground mt-6 text-xs leading-relaxed">
-            Each call is one stateless POST to <span className="font-mono">https://mcp.numeralhq.com/mcp</span>{" "}
-            with the platform&apos;s secret key as a Bearer token. The key decides the account and the mode, so
-            tools never take an account id. <span className="font-mono">merchant_id</span> is the only thing this
-            app injects, and it comes from the signed-in session, never from the browser.
+          <p className="text-muted-foreground border-t px-6 py-5 text-xs leading-relaxed">
+            Each call is one stateless POST to{" "}
+            <span className="font-mono text-foreground">https://mcp.numeralhq.com/mcp</span> with the
+            platform&apos;s secret key as a Bearer token. The key decides the account and the mode, so tools never
+            take an account id. <span className="font-mono text-foreground">merchant_id</span> is the only thing
+            this app injects, and it comes from the signed-in session, never from the browser.
           </p>
         </ScrollArea>
       </SheetContent>
