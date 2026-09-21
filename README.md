@@ -47,6 +47,7 @@ are always badged **Recorded data** so nobody mistakes a fixture for a live numb
 
 | Route | Panels | Numeral tools |
 | --- | --- | --- |
+| `/dashboard` | Merchant home: net sales and orders for the latest month, a 12-month chart, a to-do list where two tax rows (a return to approve or the next due, the closest threshold) sit among the platform's own tasks, recent orders, top states. Balance, audience and catalog are platform-side placeholder data scaled from real sales | `get_sales_summary`, `list_transactions`, `get_transaction`, `list_filings`, `get_nexus_study` |
 | `/dashboard/tax` | Connection status, the remittance split (what Tundra remitted vs what you remit vs Tundra fees), nexus summary, next filing, registrations, what changed | `get_merchant`, `get_sales_summary`, `get_nexus_study`, `list_filings`, `list_registrations` |
 | `/dashboard/tax/sales` | State x month split matrix, monthly trend, transactions with line items, CSV exports | `get_sales_summary`, `list_transactions`, `get_transaction` |
 | `/dashboard/tax/nexus` | US map, threshold meters, "do marketplace sales count here?" per state, crossing details, export | `get_nexus_study`, `list_registrations` |

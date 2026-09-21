@@ -9,9 +9,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { PlatformMark } from "@/components/shell/platform-mark";
-import { DemoModeBanner } from "@/components/shell/demo-mode-banner";
 import { PoweredBy } from "@/components/shell/powered-by";
-import { currentMode, listMerchants } from "@/lib/numeral";
+import { listMerchants } from "@/lib/numeral";
 import { getSession } from "@/lib/session";
 import { currentSkin } from "@/lib/skin";
 import { currentStaff } from "@/lib/staff";
@@ -33,19 +32,13 @@ async function signIn(formData: FormData): Promise<void> {
 
 export default async function LoginPage() {
   const skin = await currentSkin();
-  const [merchants, mode, staff] = await Promise.all([
+  const [merchants, staff] = await Promise.all([
     listMerchants(25),
-    currentMode(),
     currentStaff(),
   ]);
 
   return (
     <main className="flex min-h-screen flex-col">
-      <DemoModeBanner
-        mode={mode.mode}
-        scenario={mode.scenario}
-        staffEmail={staff?.email}
-      />
       <div className="flex flex-1 items-center justify-center px-6 py-16">
         <div className="w-full max-w-lg space-y-8">
           <div className="space-y-3 text-center">
@@ -108,7 +101,7 @@ export default async function LoginPage() {
             </CardContent>
           </Card>
 
-          <PoweredBy />
+          <PoweredBy staffEmail={staff?.email} />
         </div>
       </div>
     </main>
