@@ -96,8 +96,19 @@ the schema boundary (`lib/numeral/schemas.ts`), never in components:
 flip, and the platform skin (`tundra`, or the POS-shaped `hearth`) with cookies, so
 a presenter can show the not-connected path or a prospect-shaped brand mid-call.
 
-Set `DEMO_PASSCODE` on a hosted build to put a passcode in front of everything except
-`/dev/integration`.
+## Who can view a hosted build
+
+Set `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` and viewers must sign in with a Google
+account on an allowed domain (`ALLOWED_EMAIL_DOMAINS`, default `numeralhq.com`), the same
+way the Numeral dashboard signs staff in. Create the OAuth client (type "Web application")
+in Google Cloud with the redirect URI `https://<your-host>/api/auth/google/callback`. The
+sign-in is verified against Google's keys and the email domain is checked exactly; the
+resulting cookie is HMAC-signed with `SESSION_SECRET` so the edge proxy can trust it
+without a lookup. `/api/auth/signout` clears it.
+
+Without Google configured, `DEMO_PASSCODE` puts a shared passcode in front of everything
+instead. With neither set there is no gate, which is what every local clone gets.
+`/dev/integration` is always public.
 
 ## Recording fixtures
 
