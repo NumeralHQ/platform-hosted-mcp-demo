@@ -1,0 +1,94 @@
+{
+ "isError": false,
+ "data": {
+  "scope": "merchant_account",
+  "merchant_id": "mer_178961510812626c1b673-2596-4667-a524-43543f597a7f",
+  "reference_merchant_id": "ridgeline-trading",
+  "registrations": [
+   {
+    "id": "9000",
+    "jurisdiction_id": "US-CA",
+    "state_code": "CA",
+    "status": "complete",
+    "account_number": "102-345678",
+    "type": null,
+    "start_date_on": "2024-09-01T00:00:00.000Z",
+    "due_date_on": "2024-10-01T00:00:00.000Z",
+    "completed_at": "2024-09-20T00:00:00.000Z",
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   },
+   {
+    "id": "9001",
+    "jurisdiction_id": "US-IL",
+    "state_code": "IL",
+    "status": "complete",
+    "account_number": "3456-7890",
+    "type": null,
+    "start_date_on": "2026-02-14T00:00:00.000Z",
+    "due_date_on": "2026-03-16T00:00:00.000Z",
+    "completed_at": "2026-03-02T00:00:00.000Z",
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   },
+   {
+    "id": "9002",
+    "jurisdiction_id": "US-WA",
+    "state_code": "WA",
+    "status": "fully_transferred",
+    "account_number": "603 456 789",
+    "type": null,
+    "start_date_on": "2025-03-01T00:00:00.000Z",
+    "due_date_on": "2025-03-31T00:00:00.000Z",
+    "completed_at": "2025-03-18T00:00:00.000Z",
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   },
+   {
+    "id": "9003",
+    "jurisdiction_id": "US-GA",
+    "state_code": "GA",
+    "status": "online_account_created",
+    "account_number": "123-456789",
+    "type": null,
+    "start_date_on": "2025-06-01T00:00:00.000Z",
+    "due_date_on": "2025-07-01T00:00:00.000Z",
+    "completed_at": "2025-06-25T00:00:00.000Z",
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   },
+   {
+    "id": "9004",
+    "jurisdiction_id": "US-NJ",
+    "state_code": "NJ",
+    "status": "onboarding",
+    "account_number": null,
+    "type": null,
+    "start_date_on": "2026-03-24T00:00:00.000Z",
+    "due_date_on": "2026-04-23T00:00:00.000Z",
+    "completed_at": null,
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   },
+   {
+    "id": "9005",
+    "jurisdiction_id": "US-OH",
+    "state_code": "OH",
+    "status": "onboarding",
+    "account_number": null,
+    "type": null,
+    "start_date_on": "2026-03-27T00:00:00.000Z",
+    "due_date_on": "2026-04-26T00:00:00.000Z",
+    "completed_at": null,
+    "deregistered_on": null,
+    "created_at": "2026-09-17T18:00:45.336Z",
+    "updated_at": "2026-09-17T18:00:45.336Z"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "isError": false,
+ "data": {
+  "scope": "merchant_account",
+  "merchant_id": "mer_178961510812626c1b673-2596-4667-a524-43543f597a7f",
+  "reference_merchant_id": "ridgeline-trading",
+  "filing": {
+   "id": "70022",
+   "state": "GA",
+   "jurisdiction_id": "US-GA",
+   "status": "filed",
+   "period_starts_at": "2025-10-01T00:00:00.000Z",
+   "period_ends_at": "2025-12-31T00:00:00.000Z",
+   "due_on": "2026-01-20T00:00:00.000Z",
+   "filed_at": "2026-01-09T00:00:00.000Z",
+   "tax_collected": "811.19",
+   "taxable_sales": "20381.29",
+   "non_taxable_sales": "2445.75",
+   "penalty_amount": "0.00",
+   "interest_amount": "0.00",
+   "created_at": "2026-09-17T18:00:45.336Z",
+   "updated_at": "2026-09-17T18:00:45.336Z",
+   "calculated_sales_data": {
+    "period_index": 1,
+    "channels": {
+     "tundra_marketplace": {
+      "taxable_sales": 12228.77,
+      "remitted_by": "Tundra (marketplace facilitator)"
+     },
+     "storefront": {
+      "taxable_sales": 8152.52,
+      "remitted_by": "Ridgeline Trading Co."
+     }
+    },
+    "categories": {
+     "digital_subscriptions": 9171.58,
+     "digital_downloads": 4076.26,
+     "physical_goods": 7133.45
+    }
+   }
+  }
+ }
+}
