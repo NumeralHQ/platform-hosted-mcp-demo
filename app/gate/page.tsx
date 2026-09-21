@@ -12,7 +12,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { currentSkin } from "@/lib/skin";
-import { allowedEmailDomains, gateMode } from "@/lib/staff-gate";
+import { allowedEmailDomains, gateMethods } from "@/lib/staff-gate";
 import { unlockGate } from "./actions";
 import { safeNextPath } from "./gate-cookie";
 
@@ -30,8 +30,10 @@ export default async function GatePage({
 }) {
   const [skin, params] = await Promise.all([currentSkin(), searchParams]);
   const next = safeNextPath(params.next);
-  const mode = gateMode();
+  const methods = gateMethods();
   const error = params.error ? ERROR_COPY[params.error] : undefined;
+  const googleError = params.error && params.error !== "1" ? error : undefined;
+  const passcodeError = params.error === "1" ? error : undefined;
   const domains = allowedEmailDomains();
   const domainList = domains.map((domain) => `@${domain}`).join(", ");
 
@@ -44,13 +46,15 @@ export default async function GatePage({
             This demo is private
           </h1>
           <p className="text-muted-foreground text-sm">
-            {mode === "google"
-              ? `Sign in with your ${domainList} Google account to continue.`
-              : "Enter the passcode you were given to continue."}
+            {methods.google && methods.passcode
+              ? `Sign in with your ${domainList} Google account, or enter the passcode you were given.`
+              : methods.google
+                ? `Sign in with your ${domainList} Google account to continue.`
+                : "Enter the passcode you were given to continue."}
           </p>
         </div>
 
-        {mode === "google" ? (
+        {methods.google && (
           <Card>
             <CardHeader>
               <div className="flex items-center gap-2">
@@ -63,7 +67,9 @@ export default async function GatePage({
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-3">
-              {error && <p className="text-destructive text-sm">{error}</p>}
+              {googleError && (
+                <p className="text-destructive text-sm">{googleError}</p>
+              )}
               <Button
                 render={
                   <a
@@ -78,7 +84,9 @@ export default async function GatePage({
               </Button>
             </CardContent>
           </Card>
-        ) : (
+        )}
+
+        {methods.passcode && (
           <Card>
             <CardHeader>
               <div className="flex items-center gap-2">
@@ -101,9 +109,11 @@ export default async function GatePage({
                     autoComplete="off"
                     autoFocus
                     required
-                    aria-invalid={error ? true : undefined}
+                    aria-invalid={passcodeError ? true : undefined}
                   />
-                  {error && <p className="text-destructive text-xs">{error}</p>}
+                  {passcodeError && (
+                    <p className="text-destructive text-xs">{passcodeError}</p>
+                  )}
                 </div>
                 <Button type="submit" className="w-full">
                   Continue

@@ -4,6 +4,7 @@ import { proxy } from "../../../proxy";
 import {
   STAFF_COOKIE,
   allowedEmailDomains,
+  gateMethods,
   gateMode,
   isAllowedEmail,
   pkceChallenge,
@@ -61,17 +62,28 @@ describe("gate helpers", () => {
 });
 
 describe("staff gate", () => {
-  test("mode follows configuration: google beats passcode beats open", () => {
+  test("methods follow configuration and can both be on", () => {
     expect(gateMode({})).toBe("open");
-    expect(gateMode({ DEMO_PASSCODE: "x" })).toBe("passcode");
+    expect(gateMethods({})).toEqual({ google: false, passcode: false });
+    expect(gateMethods({ DEMO_PASSCODE: "x" })).toEqual({
+      google: false,
+      passcode: true,
+    });
     expect(
-      gateMode({
+      gateMethods({
         GOOGLE_CLIENT_ID: "id",
         GOOGLE_CLIENT_SECRET: "s",
         DEMO_PASSCODE: "x",
       }),
-    ).toBe("google");
-    expect(gateMode({ GOOGLE_CLIENT_ID: "id" })).toBe("open");
+    ).toEqual({ google: true, passcode: true });
+    // A client id without its secret is not a usable method.
+    expect(gateMethods({ GOOGLE_CLIENT_ID: "id" })).toEqual({
+      google: false,
+      passcode: false,
+    });
+    expect(
+      gateMode({ GOOGLE_CLIENT_ID: "id", GOOGLE_CLIENT_SECRET: "s" }),
+    ).toBe("gated");
   });
 
   test("allowed domains default to numeralhq.com and parse a comma list", () => {
@@ -179,7 +191,7 @@ describe("proxy", () => {
     expect(ok.headers.get("x-middleware-next")).toBe("1");
   });
 
-  test("google mode: requires a valid staff cookie and ignores the passcode cookie", async () => {
+  test("google + passcode both configured: either cookie passes", async () => {
     vi.stubEnv("GOOGLE_CLIENT_ID", "id");
     vi.stubEnv("GOOGLE_CLIENT_SECRET", "secret");
     vi.stubEnv("DEMO_PASSCODE", "test");
@@ -189,6 +201,16 @@ describe("proxy", () => {
       (
         await proxy(
           request("/dashboard", `${GATE_COOKIE}=${await hashPasscode("test")}`),
+        )
+      ).status,
+    ).toBe(200);
+    expect(
+      (
+        await proxy(
+          request(
+            "/dashboard",
+            `${GATE_COOKIE}=${await hashPasscode("wrong")}`,
+          ),
         )
       ).status,
     ).toBe(307);
@@ -208,6 +230,19 @@ describe("proxy", () => {
     expect(
       (await proxy(request("/dashboard/tax", `${STAFF_COOKIE}=${outsider}`)))
         .status,
+    ).toBe(307);
+  });
+
+  test("google only: the passcode cookie does not pass", async () => {
+    vi.stubEnv("GOOGLE_CLIENT_ID", "id");
+    vi.stubEnv("GOOGLE_CLIENT_SECRET", "secret");
+    vi.stubEnv("DEMO_PASSCODE", "");
+    expect(
+      (
+        await proxy(
+          request("/dashboard", `${GATE_COOKIE}=${await hashPasscode("test")}`),
+        )
+      ).status,
     ).toBe(307);
   });
 

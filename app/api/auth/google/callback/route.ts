@@ -6,7 +6,7 @@ import {
   STAFF_COOKIE,
   STAFF_COOKIE_MAX_AGE_SECONDS,
   allowedEmailDomains,
-  gateMode,
+  gateMethods,
   isAllowedEmail,
   signStaffCookie,
 } from "@/lib/staff-gate";
@@ -40,7 +40,7 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
     url.searchParams.set("next", next);
     return NextResponse.redirect(url);
   };
-  if (gateMode() !== "google") {
+  if (!gateMethods().google) {
     return NextResponse.redirect(new URL("/gate", request.url));
   }
 

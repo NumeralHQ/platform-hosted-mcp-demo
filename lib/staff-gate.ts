@@ -1,18 +1,27 @@
 /**
- * Who may view the hosted demo. Three modes, chosen by what is configured:
+ * Who may view the hosted demo. Two methods, each enabled by configuration,
+ * and a viewer needs to satisfy only one:
  *
  * - google:   `GOOGLE_CLIENT_ID` + `GOOGLE_CLIENT_SECRET` set. Viewers sign in
  *             with Google and must hold an email on an allowed domain
  *             (`ALLOWED_EMAIL_DOMAINS`, default `numeralhq.com`). This is how
  *             the Numeral dashboard itself signs staff in.
- * - passcode: only `DEMO_PASSCODE` set. A shared passcode (see gate-cookie.ts).
- * - open:     neither set. Every local clone runs like this.
+ * - passcode: `DEMO_PASSCODE` set. A shared passcode (see gate-cookie.ts).
+ *
+ * With neither set the site is open, which is what every local clone gets.
  *
  * Shared by `proxy.ts` (edge runtime) and the auth routes, so only Web Crypto
  * is used here: no Node imports.
  */
 
-export type GateMode = "google" | "passcode" | "open";
+export type GateMode = "gated" | "open";
+
+export interface GateMethods {
+  /** Google sign-in restricted to allowed domains. */
+  google: boolean;
+  /** Shared passcode. */
+  passcode: boolean;
+}
 
 export const STAFF_COOKIE = "demo_staff";
 export const STAFF_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
@@ -26,14 +35,23 @@ const DEV_SECRET = "tundra-demo-development-secret-please-override-in-prod";
  */
 export type GateEnv = Record<string, string | undefined>;
 
+/**
+ * Both methods can be on at the same time: a viewer passes if they satisfy
+ * either one. That keeps the passcode working while Google is being set up
+ * (registering the redirect URI on the OAuth client can lag the deploy).
+ */
+export function gateMethods(env: GateEnv = process.env): GateMethods {
+  return {
+    google: Boolean(
+      env.GOOGLE_CLIENT_ID?.trim() && env.GOOGLE_CLIENT_SECRET?.trim(),
+    ),
+    passcode: Boolean(env.DEMO_PASSCODE?.trim()),
+  };
+}
+
 export function gateMode(env: GateEnv = process.env): GateMode {
-  if (env.GOOGLE_CLIENT_ID?.trim() && env.GOOGLE_CLIENT_SECRET?.trim()) {
-    return "google";
-  }
-  if (env.DEMO_PASSCODE?.trim()) {
-    return "passcode";
-  }
-  return "open";
+  const methods = gateMethods(env);
+  return methods.google || methods.passcode ? "gated" : "open";
 }
 
 export function allowedEmailDomains(env: GateEnv = process.env): string[] {

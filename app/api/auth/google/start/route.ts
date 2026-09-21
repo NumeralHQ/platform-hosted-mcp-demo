@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { safeNextPath } from "@/app/gate/gate-cookie";
 import {
   allowedEmailDomains,
-  gateMode,
+  gateMethods,
   pkceChallenge,
   randomToken,
 } from "@/lib/staff-gate";
@@ -20,7 +20,7 @@ const TEN_MINUTES = 60 * 10;
  * happens on the ID token in the callback.
  */
 export async function GET(request: NextRequest): Promise<NextResponse> {
-  if (gateMode() !== "google") {
+  if (!gateMethods().google) {
     return NextResponse.redirect(new URL("/gate", request.url));
   }
   const clientId = process.env.GOOGLE_CLIENT_ID?.trim() ?? "";
