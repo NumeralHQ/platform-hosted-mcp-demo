@@ -16,7 +16,7 @@ const TABS = [
 export function TaxTabs() {
   const pathname = usePathname()
   return (
-    <nav className="flex gap-1 overflow-x-auto border-b" aria-label="Tax sections">
+    <nav className="flex gap-1 overflow-x-auto shadow-[inset_0_-1px_0_0_var(--border)]" aria-label="Tax sections">
       {TABS.map((tab) => {
         const active = tab.exact ? pathname === tab.href : pathname.startsWith(tab.href)
         return (
@@ -24,7 +24,7 @@ export function TaxTabs() {
             key={tab.href}
             href={tab.href}
             className={cn(
-              "-mb-px border-b-2 px-3 py-2 text-sm whitespace-nowrap transition-colors",
+              "border-b-2 px-3 py-2 text-sm whitespace-nowrap transition-colors",
               active
                 ? "border-foreground text-foreground font-medium"
                 : "text-muted-foreground border-transparent hover:text-foreground"
