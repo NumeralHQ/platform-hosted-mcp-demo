@@ -142,3 +142,5 @@ A standard Next.js app. On Vercel: set the env vars from `.env.example`, keep
 
 Tundra, Ridgeline Trading Co., and every number in `fixtures/` are fictional. Tax data
 is powered by Numeral.
+
+Source code is released under the [MIT License](LICENSE).
