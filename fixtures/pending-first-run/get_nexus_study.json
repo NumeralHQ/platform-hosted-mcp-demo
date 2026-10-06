@@ -1,0 +1,12 @@
+{
+ "isError": false,
+ "data": {
+  "scope": "merchant_account",
+  "merchant_id": "mer_178961510812626c1b673-2596-4667-a524-43543f597a7f",
+  "reference_merchant_id": "ridgeline-trading",
+  "run_date": null,
+  "study_status": "pending_first_run",
+  "jurisdictions": [],
+  "physical_presences": []
+ }
+}

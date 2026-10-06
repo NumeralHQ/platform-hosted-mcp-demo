@@ -1,0 +1,62 @@
+{
+ "isError": false,
+ "data": {
+  "transaction": {
+   "id": "tr_1789614896998dd9b47ec-1879-4ec9-8019-5445941a0878",
+   "calculation_id": "plat_calc_17896148969649c95961a-a396-4f40-a9df-48b40193b9d8",
+   "type": "PURCHASE",
+   "merchant_id": "mer_178961360417794acdf37-5aef-4fd2-84ee-4ec17efd58bd",
+   "customer_currency_code": "USD",
+   "filing_currency_code": "USD",
+   "filing_currency_code_rate": 0,
+   "reference_order_id": "ridgeline-202608-135",
+   "reference_payment_id": "ridgeline-pay-202608-135",
+   "address_line_1": "55 Trinity Ave SW",
+   "address_line_2": null,
+   "address_city": "Atlanta",
+   "address_province": "GA",
+   "address_postal_code": "30303",
+   "address_country": "US",
+   "line_items": [
+    {
+     "quantity": 1,
+     "product": {
+      "reference_line_item_id": "ridgeline-202608-135-fee",
+      "reference_product_id": "default-payment-processing-services",
+      "reference_product_name": "Default PAYMENT_PROCESSING_SERVICES Product",
+      "product_tax_code": "PAYMENT_PROCESSING_SERVICES"
+     },
+     "tax_jurisdictions": [
+      {
+       "tax_rate": 0,
+       "tax_type": "SALES",
+       "rate_type": "EXEMPT STATE SALES TAX",
+       "fee_amount": 0,
+       "tax_due_decimal": 0,
+       "tax_authority_name": "California",
+       "tax_authority_type": ""
+      },
+      {
+       "tax_rate": 0,
+       "tax_type": "SALES",
+       "rate_type": "EXEMPT COUNTY LOCAL SALES TAX",
+       "fee_amount": 0,
+       "tax_due_decimal": 0,
+       "tax_authority_name": "Los Angeles",
+       "tax_authority_type": ""
+      }
+     ],
+     "tax_amount": 0,
+     "amount_excluding_tax": 290,
+     "amount_including_tax": 290,
+     "line_item_id": "li_1789614896964235832b2-ad4a-4a6c-94a3-65adcc0e3193",
+     "type": null
+    }
+   ],
+   "transaction_processed_at": "2026-08-31T18:21:02.000Z",
+   "created_at": "2026-09-17T03:14:56.998Z",
+   "updated_at": "2026-09-17T03:14:56.998Z",
+   "testmode": true
+  }
+ }
+}

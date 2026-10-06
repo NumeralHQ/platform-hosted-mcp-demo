@@ -1,0 +1,7 @@
+{
+ "isError": true,
+ "data": {
+  "error_code": "merchant_not_linked",
+  "error_message": "This merchant has not connected their Numeral account to your platform, or has not shared it with you. Ask the merchant to add your platform under Connections in Numeral and switch on sharing."
+ }
+}

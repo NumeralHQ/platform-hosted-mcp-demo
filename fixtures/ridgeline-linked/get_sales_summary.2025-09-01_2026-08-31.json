@@ -1,0 +1,6930 @@
+{
+ "isError": false,
+ "data": {
+  "merchant_id": "mer_178961360417794acdf37-5aef-4fd2-84ee-4ec17efd58bd",
+  "from": "2025-09-01",
+  "to": "2026-08-31",
+  "rows": [
+   {
+    "month": "2025-09",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "19000",
+    "tax_collected": "3568"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "14100",
+    "tax_collected": "837"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "309"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "53200",
+    "tax_collected": "2800"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "23300",
+    "tax_collected": "1795"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1165",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "16200",
+    "tax_collected": "1286"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "13200",
+    "tax_collected": "1452"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "33300",
+    "tax_collected": "2595"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1665",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "14700",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "703"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "19600",
+    "tax_collected": "923"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "21100",
+    "tax_collected": "2237"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1055",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "340"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "40100",
+    "tax_collected": "2553"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "23500",
+    "tax_collected": "994"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1175",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "535",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "24100",
+    "tax_collected": "1271"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "14100",
+    "tax_collected": "1075"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "18600",
+    "tax_collected": "1336"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "24100",
+    "tax_collected": "1872"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1205",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17500",
+    "tax_collected": "1444"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "46500",
+    "tax_collected": "3837"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "2325",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "46400",
+    "tax_collected": "4803"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "24400",
+    "tax_collected": "2526"
+   },
+   {
+    "month": "2025-09",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1220",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "22900",
+    "tax_collected": "4426"
+   },
+   {
+    "month": "2025-10",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "1078"
+   },
+   {
+    "month": "2025-10",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "14100",
+    "tax_collected": "837"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "309"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "46100",
+    "tax_collected": "2106"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 6,
+    "total_sales": "29700",
+    "tax_collected": "1464"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "1485",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "26500",
+    "tax_collected": "2229"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "23900",
+    "tax_collected": "2465"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "32700",
+    "tax_collected": "2817"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1635",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "22600",
+    "tax_collected": "703"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "303"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "876"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "1078"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "490",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "213"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "660",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "573"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "225"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "602"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11600",
+    "tax_collected": "972"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "285"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "11600",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "580",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "632"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "566"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1336"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "26900",
+    "tax_collected": "2220"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "13700",
+    "tax_collected": "1131"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "685",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "50700",
+    "tax_collected": "5247"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 6,
+    "total_sales": "46500",
+    "tax_collected": "4813"
+   },
+   {
+    "month": "2025-10",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "2325",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "2816"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "309"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "719"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "17500",
+    "tax_collected": "1230"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "35500",
+    "tax_collected": "3463"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1775",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "11700",
+    "tax_collected": "874"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "585",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "26000",
+    "tax_collected": "2612"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "20500",
+    "tax_collected": "2227"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1025",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 8,
+    "total_sales": "86500",
+    "tax_collected": "6389"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "17700",
+    "tax_collected": "703"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "885",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "273"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "391"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "238"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 8,
+    "total_sales": "72800",
+    "tax_collected": "7575"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "21400",
+    "tax_collected": "2267"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1070",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "20700",
+    "tax_collected": "988"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "11700",
+    "tax_collected": "408"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "11300",
+    "tax_collected": "820"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "565",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "28800",
+    "tax_collected": "2331"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "46100",
+    "tax_collected": "3805"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "25400",
+    "tax_collected": "2097"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1270",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "57000",
+    "tax_collected": "5900"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "600"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "18600",
+    "tax_collected": "1082"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-11",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "16600",
+    "tax_collected": "2428"
+   },
+   {
+    "month": "2025-12",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "6800",
+    "tax_collected": "272"
+   },
+   {
+    "month": "2025-12",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "340",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "340"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "340"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 12,
+    "total_sales": "92800",
+    "tax_collected": "4748"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 7,
+    "total_sales": "60700",
+    "tax_collected": "4007"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 7,
+    "total_sales": "3035",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "311"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "28200",
+    "tax_collected": "2502"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1410",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "23000",
+    "tax_collected": "303"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "12600",
+    "tax_collected": "1121"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "630",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "231"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "19000",
+    "tax_collected": "552"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "950",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 8,
+    "total_sales": "51900",
+    "tax_collected": "5396"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "1078"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "490",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "593"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11600",
+    "tax_collected": "1160"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "294"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "11700",
+    "tax_collected": "408"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "585",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "247"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "247"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11700",
+    "tax_collected": "570"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "681"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "SC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "19200",
+    "tax_collected": "1728"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "SC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "13700",
+    "tax_collected": "1233"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "SC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "685",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "26500",
+    "tax_collected": "2106"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1325",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "30300",
+    "tax_collected": "2501"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "8300",
+    "tax_collected": "685"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "660",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "818"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "23300",
+    "tax_collected": "2412"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1580",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2025-12",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "19900",
+    "tax_collected": "3766"
+   },
+   {
+    "month": "2026-01",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "1738"
+   },
+   {
+    "month": "2026-01",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "790"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "19600",
+    "tax_collected": "1470"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "980",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 12,
+    "total_sales": "88100",
+    "tax_collected": "6203"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 7,
+    "total_sales": "68200",
+    "tax_collected": "3306"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 7,
+    "total_sales": "3410",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1506"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "22600",
+    "tax_collected": "1582"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1130",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "42000",
+    "tax_collected": "2430"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "303"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "30500",
+    "tax_collected": "1437"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "6800",
+    "tax_collected": "320"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "340",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "38100",
+    "tax_collected": "4139"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "595"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "16500",
+    "tax_collected": "1650"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "348"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "25400",
+    "tax_collected": "1230"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1270",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17500",
+    "tax_collected": "1219"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "561"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "573"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "21100",
+    "tax_collected": "947"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "810",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "293"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "24400",
+    "tax_collected": "1024"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "SC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "306"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "27500",
+    "tax_collected": "2203"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "15800",
+    "tax_collected": "1540"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "790",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "281"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "287"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "348"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "24900",
+    "tax_collected": "2627"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "31400",
+    "tax_collected": "3312"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "1570",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-01",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "458"
+   },
+   {
+    "month": "2026-02",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "3894"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "309"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "528"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 14,
+    "total_sales": "116900",
+    "tax_collected": "7101"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "20700",
+    "tax_collected": "1540"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1035",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "563"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "3400",
+    "tax_collected": "311"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "460",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "502"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "14100",
+    "tax_collected": "1251"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1566"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "703"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "160"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "28600",
+    "tax_collected": "1347"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1430",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 10,
+    "total_sales": "83200",
+    "tax_collected": "9462"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "18100",
+    "tax_collected": "1856"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "905",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "15000",
+    "tax_collected": "1500"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "750",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "494"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "16500",
+    "tax_collected": "696"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "713"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "29400",
+    "tax_collected": "1067"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "16500",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "662"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "16500",
+    "tax_collected": "928"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "13700",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "770"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "20700",
+    "tax_collected": "1540"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1035",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "50200",
+    "tax_collected": "4142"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "1089"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "660",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "34300",
+    "tax_collected": "3619"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "11300",
+    "tax_collected": "1192"
+   },
+   {
+    "month": "2026-02",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "565",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "3894"
+   },
+   {
+    "month": "2026-03",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "136"
+   },
+   {
+    "month": "2026-03",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 9,
+    "total_sales": "51400",
+    "tax_collected": "1668"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 8,
+    "total_sales": "58900",
+    "tax_collected": "4310"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 8,
+    "total_sales": "2945",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "26900",
+    "tax_collected": "2069"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "16600",
+    "tax_collected": "1054"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "830",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "35700",
+    "tax_collected": "2763"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "19600",
+    "tax_collected": "1636"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "980",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "810",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "462"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "603"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "204"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "11300",
+    "tax_collected": "678"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "565",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "40300",
+    "tax_collected": "4598"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "14700",
+    "tax_collected": "2205"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "735",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "9200",
+    "tax_collected": "552"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "20500",
+    "tax_collected": "348"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1025",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "307"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "32700",
+    "tax_collected": "2217"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "765"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "35700",
+    "tax_collected": "2234"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "26900",
+    "tax_collected": "1241"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1635",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "24800",
+    "tax_collected": "225"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "632"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1096"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "272"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "1024"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "SC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "441"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "34600",
+    "tax_collected": "2855"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "35200",
+    "tax_collected": "2904"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1760",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "11700",
+    "tax_collected": "408"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "33100",
+    "tax_collected": "3493"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 6,
+    "total_sales": "39100",
+    "tax_collected": "4125"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "1955",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-03",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "1214"
+   },
+   {
+    "month": "2026-04",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "18400",
+    "tax_collected": "1674"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "920",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 13,
+    "total_sales": "92400",
+    "tax_collected": "5667"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 9,
+    "total_sales": "51900",
+    "tax_collected": "4106"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 8,
+    "total_sales": "3570",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "16200",
+    "tax_collected": "1286"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "723"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "24500",
+    "tax_collected": "2243"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "28800",
+    "tax_collected": "2280"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1440",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "516"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "303"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "11300",
+    "tax_collected": "532"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "32700",
+    "tax_collected": "1540"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1635",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "37300",
+    "tax_collected": "1582"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1865",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "26000",
+    "tax_collected": "2666"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "11600",
+    "tax_collected": "1190"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "580",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "490"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "494"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "11300",
+    "tax_collected": "678"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "565",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "307"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "561"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "23500",
+    "tax_collected": "994"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "11300",
+    "tax_collected": "820"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "565",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "13700",
+    "tax_collected": "523"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "225"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "660",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "16200",
+    "tax_collected": "947"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11600",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "18600",
+    "tax_collected": "1096"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "13700",
+    "tax_collected": "632"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "975",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "19900",
+    "tax_collected": "1463"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "32000",
+    "tax_collected": "2641"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "16500",
+    "tax_collected": "1362"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 7,
+    "total_sales": "64200",
+    "tax_collected": "6773"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "41000",
+    "tax_collected": "4326"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "2050",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-04",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "624"
+   },
+   {
+    "month": "2026-05",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "4900",
+    "tax_collected": "1078"
+   },
+   {
+    "month": "2026-05",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "1078"
+   },
+   {
+    "month": "2026-05",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "309"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "490",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 14,
+    "total_sales": "93000",
+    "tax_collected": "6204"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "26800",
+    "tax_collected": "1659"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "1340",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "17700",
+    "tax_collected": "1227"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "14100",
+    "tax_collected": "1094"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "705",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "527"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 9,
+    "total_sales": "77900",
+    "tax_collected": "6773"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "13700",
+    "tax_collected": "959"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "22600",
+    "tax_collected": "703"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1130",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "14100",
+    "tax_collected": "664"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "34300",
+    "tax_collected": "3750"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 7,
+    "total_sales": "44600",
+    "tax_collected": "5504"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "2645",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "19900",
+    "tax_collected": "1050"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "238"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "22300",
+    "tax_collected": "1305"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "22000",
+    "tax_collected": "1026"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "294"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "26000",
+    "tax_collected": "678"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "36500",
+    "tax_collected": "1308"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "329"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "247"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "11600",
+    "tax_collected": "812"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "580",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "16200",
+    "tax_collected": "748"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "21400",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1650",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "3400",
+    "tax_collected": "285"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "NV",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1165",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "9200",
+    "tax_collected": "736"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "460",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "34800",
+    "tax_collected": "2872"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "34800",
+    "tax_collected": "2872"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1740",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "9200",
+    "tax_collected": "971"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "29800",
+    "tax_collected": "3144"
+   },
+   {
+    "month": "2026-05",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "1490",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "22400",
+    "tax_collected": "3704"
+   },
+   {
+    "month": "2026-06",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "17700",
+    "tax_collected": "3894"
+   },
+   {
+    "month": "2026-06",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "885",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 10,
+    "total_sales": "79400",
+    "tax_collected": "4876"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 10,
+    "total_sales": "78400",
+    "tax_collected": "4778"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 10,
+    "total_sales": "3920",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "26900",
+    "tax_collected": "2069"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "1227"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "885",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "311"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "25400",
+    "tax_collected": "2042"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "11700",
+    "tax_collected": "1083"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "585",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "66600",
+    "tax_collected": "5055"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "16200",
+    "tax_collected": "763"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "238"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "9200",
+    "tax_collected": "552"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "41900",
+    "tax_collected": "4763"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 12,
+    "total_sales": "75600",
+    "tax_collected": "9381"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 11,
+    "total_sales": "4025",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "16500",
+    "tax_collected": "812"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "593"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "16500",
+    "tax_collected": "870"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "825",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "490"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "18600",
+    "tax_collected": "1116"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "930",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "13700",
+    "tax_collected": "822"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "26500",
+    "tax_collected": "1296"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1325",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "16200",
+    "tax_collected": "820"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "247"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "406"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "14700",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "225"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "374"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "535",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "632"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "10700",
+    "tax_collected": "464"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "780",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "12800",
+    "tax_collected": "1024"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "640",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "22400",
+    "tax_collected": "1229"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1120",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "63900",
+    "tax_collected": "5273"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "40300",
+    "tax_collected": "3325"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "2015",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "41000",
+    "tax_collected": "4326"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "359"
+   },
+   {
+    "month": "2026-06",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "13200",
+    "tax_collected": "2292"
+   },
+   {
+    "month": "2026-07",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "21800",
+    "tax_collected": "2960"
+   },
+   {
+    "month": "2026-07",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1090",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "AL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "790"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "AZ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "528"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 11,
+    "total_sales": "83700",
+    "tax_collected": "4340"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 6,
+    "total_sales": "49900",
+    "tax_collected": "3433"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "2495",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "10700",
+    "tax_collected": "783"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "15600",
+    "tax_collected": "1035"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "780",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "34200",
+    "tax_collected": "3186"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "31400",
+    "tax_collected": "2320"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1570",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 11,
+    "total_sales": "87200",
+    "tax_collected": "6016"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 8,
+    "total_sales": "66900",
+    "tax_collected": "3773"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 8,
+    "total_sales": "3345",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "13700",
+    "tax_collected": "645"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "231"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "ID",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 10,
+    "total_sales": "49900",
+    "tax_collected": "6513"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "28400",
+    "tax_collected": "3610"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1420",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "340"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "LA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "294"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "12800",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "474"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "395",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "3400",
+    "tax_collected": "307"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "170",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 5,
+    "total_sales": "30600",
+    "tax_collected": "1717"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "21100",
+    "tax_collected": "933"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1055",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "9200",
+    "tax_collected": "225"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "460",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "8300",
+    "tax_collected": "633"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "415",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1096"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OK",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "12800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11700",
+    "tax_collected": "936"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "18600",
+    "tax_collected": "1336"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "17700",
+    "tax_collected": "770"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "885",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "38200",
+    "tax_collected": "3151"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 10,
+    "total_sales": "48700",
+    "tax_collected": "4018"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 8,
+    "total_sales": "3320",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "490"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 7,
+    "total_sales": "41000",
+    "tax_collected": "4325"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "29100",
+    "tax_collected": "3070"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1455",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-07",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "11300",
+    "tax_collected": "893"
+   },
+   {
+    "month": "2026-08",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "1214"
+   },
+   {
+    "month": "2026-08",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "29400",
+    "tax_collected": "5244"
+   },
+   {
+    "month": "2026-08",
+    "country": "IT",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1470",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 23,
+    "total_sales": "168200",
+    "tax_collected": "9236"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 6,
+    "total_sales": "54800",
+    "tax_collected": "3433"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 6,
+    "total_sales": "2740",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "10700",
+    "tax_collected": "783"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "27400",
+    "tax_collected": "2507"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CO",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1370",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "CT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "0",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 7,
+    "total_sales": "72700",
+    "tax_collected": "4785"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "21100",
+    "tax_collected": "2005"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "FL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1055",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 4,
+    "total_sales": "39100",
+    "tax_collected": "1735"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "516"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "GA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "290",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "HI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 3,
+    "total_sales": "23700",
+    "tax_collected": "1116"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "IA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 8,
+    "total_sales": "66000",
+    "tax_collected": "7593"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 3,
+    "total_sales": "39300",
+    "tax_collected": "4569"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "IL",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 3,
+    "total_sales": "1965",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "IN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "7900",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "16200",
+    "tax_collected": "848"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "KS",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "810",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "KY",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MD",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "15600",
+    "tax_collected": "936"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "5800",
+    "tax_collected": "348"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MI",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "MO",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "11700",
+    "tax_collected": "562"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 5,
+    "total_sales": "31800",
+    "tax_collected": "1412"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NC",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 5,
+    "total_sales": "1590",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "17700",
+    "tax_collected": "553"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NE",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "885",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NJ",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "13700",
+    "tax_collected": "1044"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NM",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "685",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "NY",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "26700",
+    "tax_collected": "1744"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "32700",
+    "tax_collected": "1832"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "OH",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "1635",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 2,
+    "total_sales": "9800",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "OR",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 2,
+    "total_sales": "490",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "PA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "13200",
+    "tax_collected": "1056"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 6,
+    "total_sales": "52500",
+    "tax_collected": "3208"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "42100",
+    "tax_collected": "2672"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TN",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "2105",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 9,
+    "total_sales": "73000",
+    "tax_collected": "6025"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 4,
+    "total_sales": "28600",
+    "tax_collected": "2360"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "TX",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 4,
+    "total_sales": "1430",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "UT",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "10700",
+    "tax_collected": "490"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "VA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 8,
+    "total_sales": "66600",
+    "tax_collected": "7026"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "merchant_responsible",
+    "transaction_count": 1,
+    "total_sales": "4900",
+    "tax_collected": "517"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "WA",
+    "currency": "USD",
+    "liability": "platform_fees",
+    "transaction_count": 1,
+    "total_sales": "245",
+    "tax_collected": "0"
+   },
+   {
+    "month": "2026-08",
+    "country": "US",
+    "state": "WI",
+    "currency": "USD",
+    "liability": "marketplace_facilitated",
+    "transaction_count": 2,
+    "total_sales": "8300",
+    "tax_collected": "269"
+   }
+  ]
+ }
+}
