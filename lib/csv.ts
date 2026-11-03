@@ -8,11 +8,22 @@ export interface CsvColumn<Row> {
   value: (row: Row) => string | number | null | undefined
 }
 
+// Excel, Numbers and Sheets treat a cell that starts with =, +, -, @, tab or
+// CR as a formula. Columns like city and order id come from shoppers and
+// merchants, so those cells get a leading single quote (the OWASP guidance for
+// CSV injection). Plain numbers such as a -12.50 refund stay numeric.
+const FORMULA_PREFIX = /^[=+\-@\t\r]/
+const PLAIN_NUMBER = /^-?\d+(\.\d+)?$/
+
+function neutralizeFormula(text: string): string {
+  return FORMULA_PREFIX.test(text) && !PLAIN_NUMBER.test(text) ? `'${text}` : text
+}
+
 function escapeCell(value: string | number | null | undefined): string {
   if (value === null || value === undefined) {
     return ""
   }
-  const text = String(value)
+  const text = neutralizeFormula(String(value))
   return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text
 }
 
